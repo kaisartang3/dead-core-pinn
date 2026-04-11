@@ -20,8 +20,17 @@ The implementation includes:
 - biased collocation point sampling
 - Adam and L-BFGS optimization
 
+
 ## Requirements
 Install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Citation
+
+If you use this code, please cite the manuscript:
+
+*Physics-Informed Neural Network for Diffusion-Reaction Problems with Dead-Zone Formation in Catalyst Slabs.*
+
