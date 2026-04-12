@@ -3,8 +3,11 @@
 This repository contains an implementation of a Physics-Informed Neural Network (PINN) for solving nonlinear diffusion-reaction problems with dead-core interface identification.
 
 ## Contents
-- `Deadcore PINN.ipynb` — Jupyter notebook containing the full implementation
+- `deadcore_pinn.ipynb` — Jupyter notebook containing the full PINN implementation
 - `requirements.txt` — Python dependencies required to run the notebook
+- `dead_zone_exact_original.py` — Python script for the exact dead-zone solution
+- `proceeding_comparison.m` — MATLAB script used to generate the comparison figure from the conference proceeding
+- `figures/` — exported plots and result figures
 
 ## Problem Description
 This code solves a nonlinear diffusion-reaction problem with an unknown dead-core boundary. The PINN simultaneously learns:
