@@ -6,7 +6,7 @@ This repository contains an implementation of a Physics-Informed Neural Network 
 - `deadcore_pinn.ipynb` — Jupyter notebook containing the full PINN implementation
 - `requirements.txt` — Python dependencies required to run the notebook
 - `dead_zone_exact_original.py` — Python script for the exact dead-zone solution
-- `proceeding_comparison.m` — MATLAB script used to generate the comparison figure from the conference proceeding
+- `proceeding_comparison.m` — MATLAB script used to generate the comparison figure showing profiles of non-dead-core and dead-core solutions
 - `figures/` — exported plots and result figures
 
 ## Problem Description
